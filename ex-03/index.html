@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+   <h1>Informe as notas dos alunos: </h1>
+  </header>
+  <section>
+    <form action="media.php" method="get">
+      <label for="nota1">Nota 1</label>
+      <input type="number" name="nota1" id="idnota1">
+
+      <label for="nota2">Nota 2</label>
+      <input type="number" name="nota2" id="idnota2">
+
+      <label for="nota3">Nota 3</label>
+      <input type="number" name="nota3" id="idnota3">
+      
+      <input type="submit" value="enviar">
+    </form>
+  </section>
+  <section>
+    <?php 
+      $n1 = $_GET["nota1"];
+      $n2 = $_GET["nota2"];
+      $n3 = $_GET["nota3"];
+      $soma = $n1 + $n2 + $n3 ;
+      $media = $soma/3
+      print "a média da nota dos 3 alunos é $media "
+    ?>
+  </section>
+</body>
+</html>
