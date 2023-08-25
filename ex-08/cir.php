@@ -19,4 +19,4 @@
     $perimetro = (2 * M_PI) * $r;
     $area = M_PI * ($r * $r);
 
-    echo "O círculo que possui o valor " . $r . "cm de raio, tem " . number_format($perimetro, 2 , ",") . "cm de perímetro e " . number_format($area, 2, "," , ".") . "cm³ de área.";
+    echo "O círculo que possui o valor " . $r . "cm de raio, tem " . number_format($perimetro, 2 , ",") . "cm de perímetro e " . number_format($area, 2, "," , ".") . "cm³ de área. tste";
