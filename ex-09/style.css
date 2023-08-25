@@ -1,0 +1,73 @@
+html{
+  background-color: #5c9abf;
+}
+
+button{
+  outline: none;
+  box-shadow: none;
+  border: none;
+  border-color: none;
+  border-style: none;
+  border-color: none;
+  border-image: none;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.calc{
+  margin: auto;
+  background: linear-gradient( #d4e9fa, #c0dae7)  ;
+  border: 1px solid #9ac3d4;
+  border-radius: 20px;
+  padding: 20px;
+  max-width: max-content;
+  height: 250px;
+  box-shadow:  10px 20px 7440px #3b7297 ;
+  
+}
+
+.numtecla{
+  background-color: #48a1f1;
+}
+
+.caltecla{
+  background-color: #f1a633 ;
+}
+
+.numtecla,
+.caltecla{
+  color:#e6f3f4;
+  padding: 10px 10px;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 30% 30%;
+}
+
+.numtecla:hover{
+  background-color: #4291d6a9;
+  transition: 0.4s;
+}
+
+.visor{
+  background-color:#d2e8f6;
+  box-shadow: 10px 10px 600px #5c9abf;
+  border: 1px solid #54a1e43f;
+  border-radius: 2px;
+  height: 40px;
+  width: 180px;
+  font-size: 40px;
+  color: #3b7297;
+  font-weight: 400;
+}
+
+.cor-verde{
+  background-color: #27cf55;
+}
+
+.cor-verm{
+  background-color: #f0686a ;
+}
